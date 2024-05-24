@@ -2,7 +2,7 @@
 const nextConfig = {
     output: 'export',
     basePath: '/guilhermecds.github.io',
-    assetPrefix: '/guilhermecds.github.io/',
+    assetPrefix: 'https://www.guilherme-gcsistemas.online/',
     trailingSlash: true,
 };
   

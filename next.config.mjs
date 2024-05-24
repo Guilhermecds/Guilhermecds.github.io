@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    output: 'export',
+    basePath: '/guilhermecds.github.io',
+    assetPrefix: '/guilhermecds.github.io/',
+    trailingSlash: true,
+};
+  
+  export default nextConfig;

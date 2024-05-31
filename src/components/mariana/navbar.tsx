@@ -3,7 +3,7 @@ import Foto from './Foto';
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-950 fixed top-0 left-0 w-80 flex flex-col items-center py-5 justify-center" style={{ minHeight: '100vh' }}>
+    <nav className="bg-gray-950 fixed top-0 left-0 w-80 flex flex-col items-center py-5 justify-center navbar" style={{ minHeight: '100vh' }}>
       <div className="">
         <Foto />
       </div>

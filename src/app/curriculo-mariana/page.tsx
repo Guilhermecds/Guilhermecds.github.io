@@ -1,5 +1,6 @@
 import Footer from "@/components/mariana/Footer";
 import Foto from "@/components/mariana/Foto";
+import FotoCelular from "@/components/mariana/FotoCelular";
 import Header from "@/components/mariana/Header";
 import Navbar from "@/components/mariana/navbar";
 import Link from 'next/link';
@@ -8,8 +9,11 @@ export default function CurriculoMariana() {
   return (
     <>
       <Navbar />
-      <div className="ml-80 p-5 bg-gray-950 shadow-lg border-2 border-black" style={{ minHeight: '100vh' }}>
+      <div className="ml-80 p-5 bg-gray-950 shadow-lg border-2 border-black curriculo" style={{ minHeight: '100vh' }}>
         <Header />
+        <div className="flex flex-col items-center py-5 justify-center foto-curriculo">
+          <FotoCelular />
+        </div>
         <div className="mt-8">
           <h2 className="text-3xl text-left font-bold mb-8 text-gradient">Resumo</h2>
           <p className="text-gradient text-lg">Sou uma estudante de psicologia dedicada e apaixonada por entender o comportamento humano e suas complexidades. Atualmente, estou buscando uma sólida formação teórica aliada a experiências práticas que me permitam desenvolver habilidades de análise, empatia e intervenção.<br/>

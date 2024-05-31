@@ -5,8 +5,8 @@ import HabilidadesCompetencias from "@/components/mariana/HabilidadesCompetencia
 import Header from "@/components/mariana/Header";
 import Objetivo from "@/components/mariana/Objetivo";
 import QuebraLinha from "@/components/mariana/QuebraLinha";
-import Navbar from "@/components/mariana/navbar";
-import Resumo from "@/components/mariana/resumo";
+import Resumo from "@/components/mariana/Resumo";
+import Navbar from "@/components/mariana/Navbar";
 
 export default function CurriculoMariana() {
   return (

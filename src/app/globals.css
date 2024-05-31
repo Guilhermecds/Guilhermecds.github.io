@@ -55,6 +55,20 @@ body {
   .curriculo {
     margin-left: 0 !important;
   }
+  .flex-column {
+    flex-direction: column;
+  }
+  .data-universidade {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .nome-titulo {
+    font-size: 2.7rem;
+  }
+  .titulos {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (min-width: 768px) {

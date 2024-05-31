@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function FotoCelular() {
     return (
-        <>
+        <div className="flex flex-col items-center py-5 justify-center foto-curriculo">
             <img
-                className="h-52 w-52 rounded-full"
+                className="h-64 w-64 rounded-full"
                 src="/marianacoelho.jpg"
                 alt="Profile Picture"
             />
@@ -13,6 +13,6 @@ export default function FotoCelular() {
                     <p className="text-lg font-bold text-gradient">Baixar Curriculo</p>
                 </Link>
             </div>
-        </>
+        </div>
     );
 }

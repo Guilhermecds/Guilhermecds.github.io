@@ -6,7 +6,7 @@ import Header from "@/components/mariana/Header";
 import Objetivo from "@/components/mariana/Objetivo";
 import QuebraLinha from "@/components/mariana/QuebraLinha";
 import Resumo from "@/components/mariana/Resumo";
-import Navbar from "@/components/mariana/aaaa";
+import Navbar from "@/components/mariana/Navbar";
 
 export default function CurriculoMariana() {
   return (

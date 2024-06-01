@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import FotoCelular from "@/components/FotoCelular";
 import HabilidadesCompetencias from "@/components/HabilidadesCompetencias";
 import Header from "@/components/Header";
+import Idiomas from "@/components/Idiomas";
 import LinguagensFerramentas from "@/components/LinguagensFerramentas";
 import Navbar from "@/components/Navbar";
 import Objetivo from "@/components/Objetivo";
@@ -26,6 +27,8 @@ export default function Home() {
         <Experiencia />
         <QuebraLinha />
         <LinguagensFerramentas />
+        <QuebraLinha />
+        <Idiomas />
         <QuebraLinha />
         <Educacao />
         <Footer />

@@ -12,7 +12,7 @@ export default function HabilidadesCompetencias() {
             <svg className="w-4 h-4 mr-2 fill-yellow-300 text-blue-800 mt-1" viewBox="0 0 20 20">
               <circle cx="10" cy="10" r="8" />
             </svg>
-            <p className="text-gradient text-lg">Compromisso com aprendizado contínuo e atualização tecnológica.</p>
+            <p className="text-gradient text-lg">Aprendizado contínuo e atualização tecnológica.</p>
           </div>
           <div className="flex items-start mb-2">
             <svg className="w-4 h-4 mr-2 fill-yellow-300 text-blue-800 mt-1" viewBox="0 0 20 20">
